@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Indotalent
+namespace Terapia
 {
     public static class PageModelExtensions
     {
