@@ -1,9 +1,10 @@
-# 🚀 ASP.NET Core 8.0 Landing Page
+# 🚀 ASP.NET Landing Page
 
 **A Professional, Customizable Landing Page + Auth-Ready Application**
 
+[![Build Status](https://github.com/SaintAngeLs/asp_net_mvc_landing_page/actions/workflows/dotnet-multi-target-build.yml/badge.svg)](https://github.com/SaintAngeLs/asp_net_mvc_landing_page/actions/workflows/dotnet-multi-target-build.yml)
 [![License](https://img.shields.io/badge/License-HTML--Codex-blue)](#license)
-[![.NET](https://img.shields.io/badge/.NET-8.0-blueviolet)](https://dotnet.microsoft.com/)
+[![.NET](https://img.shields.io/badge/.NET-8.0%20|%209.0%20|%2010.0-blueviolet)](https://dotnet.microsoft.com/)
 [![GitHub Stars](https://img.shields.io/github/stars/SaintAngeLs/asp_net_mvc_landing_page?style=social)](https://github.com/SaintAngeLs/asp_net_mvc_landing_page/stargazers)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-SaintAngeLs-black?logo=github)](https://github.com/SaintAngeLs)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-DevITSharpPRO-black?logo=github)](https://github.com/DevITSharpPRO)
@@ -12,24 +13,24 @@
 
 ## 📌 Overview
 
-**ASP.NET Landing Page** is a modern, open-source web application designed using **ASP.NET Core 8.0 Razor Pages (C#)**.
-This project provides:
+**ASP.NET Landing Page** is a modern, open-source web application built using **ASP.NET Core 8.0 Razor Pages (C#)**.
+It includes:
 
-* A **fully responsive**, visually stunning landing page
-* A clean structure divided into **public (landing)** and **authenticated (service)** sections
-* Easy integration for **user authentication**, **contact forms**, **booking features**, and more
-* A perfect starting point for SaaS platforms, company homepages, product landing pages, and full-stack apps
+* A **fully responsive**, visually appealing landing page
+* A clean separation between **landing pages** and **authenticated service pages**
+* Support for **user authentication**, **contact features**, and **extensible modular components**
+* A robust foundation for SaaS platforms, portfolio pages, business websites, or full-stack apps
 
-Originally based on a template from **HTML Codex**, this project modernizes and transforms it into a full ASP.NET Core solution.
+This project is based on a template from **HTML Codex**, professionally adapted and restructured for ASP.NET Core.
 
 ---
 
 ## 🌐 Repository & Project Links
 
-**Main Repository:**
-🔗 [https://github.com/SaintAngeLs/asp_net_mvc_landing_page](https://github.com/SaintAngeLs/asp_net_mvc_landing_page)
+🔗 **Main Repository:**
+[https://github.com/SaintAngeLs/asp_net_mvc_landing_page](https://github.com/SaintAngeLs/asp_net_mvc_landing_page)
 
-**Maintained by:**
+👥 **Maintained By:**
 
 * GitHub: [https://github.com/SaintAngeLs](https://github.com/SaintAngeLs)
 * GitHub: [https://github.com/DevITSharpPRO](https://github.com/DevITSharpPRO)
@@ -46,25 +47,24 @@ Originally based on a template from **HTML Codex**, this project modernizes and 
 
 ## ✨ Features
 
-### 🎯 Front-Facing (Landing) Section
+### 🎯 Public Landing Section
 
-* Modern, sleek, responsive design
-* Blogs, contact form, services, hero section
-* Easy-to-customize UI components
-* Optimized partials & layout system
+* Modern, clean, responsive UI
+* Blog, contact page, service listings, hero section
+* Modular partials for easy customization
 
-### 🔒 Authenticated Service Area
+### 🔒 Authenticated Application Area
 
-* Uses ASP.NET Core Identity-ready structure
-* Secure dashboard space (after login & registration)
-* Extendable with your business logic
+* Integrates seamlessly with ASP.NET Core Identity
+* Supports dashboards, profiles, service modules
+* Designed for expansion
 
-### 🛠️ Technical Highlights
+### 🛠️ Technical Stack
 
 * **ASP.NET Core 8.0 Razor Pages**
-* Organized project structure (`Landing/`, `App/`, `Account/`)
-* Centralized layout and partials
-* Built with performance & scalability in mind
+* Clean separation: `Landing`, `App`, `Account` modules
+* Shared UI components through `Pages/Shared`
+* Performance-optimized Razor layout system
 
 ---
 
@@ -74,9 +74,9 @@ Originally based on a template from **HTML Codex**, this project modernizes and 
 Terapia.Asp.Web/
 ├── Pages/
 │   ├── Landing/       # Public marketing pages
-│   ├── App/           # Authenticated application pages
-│   ├── Account/       # Login, Register, ForgotPassword, etc.
-│   └── Shared/        # Layout, components & partials
+│   ├── App/           # Authenticated service pages
+│   ├── Account/       # Login, Register, etc.
+│   └── Shared/        # Layouts, components, partials
 ├── wwwroot/           # Static assets
 ├── Program.cs
 ├── appsettings*.json
@@ -85,75 +85,92 @@ Terapia.Asp.Web/
 
 ---
 
+# 🏗️ Build Status (Multi-SDK: .NET 8, .NET 9, .NET 10)
+
+This project includes an automated **GitHub Actions CI workflow** that builds the app on:
+
+* **.NET 8.0**
+* **.NET 9.0**
+* **.NET 10.0**
+
+### 🔧 Workflow File
+
+Link:
+[https://github.com/SaintAngeLs/asp_net_mvc_landing_page/actions/workflows/dotnet-multi-target-build.yml](https://github.com/SaintAngeLs/asp_net_mvc_landing_page/actions/workflows/dotnet-multi-target-build.yml)
+
+Badge (already added at top):
+
+```md
+[![Build Status](https://github.com/SaintAngeLs/asp_net_mvc_landing_page/actions/workflows/dotnet-multi-target-build.yml/badge.svg)](https://github.com/SaintAngeLs/asp_net_mvc_landing_page/actions/workflows/dotnet-multi-target-build.yml)
+```
+
+---
+
 ## 🚀 Getting Started
 
-### ✔ Prerequisites
+### ✔ Requirements
 
-You need **.NET 8.0 SDK**:
-
-🔗 [https://dotnet.microsoft.com/download/dotnet/8.0](https://dotnet.microsoft.com/download/dotnet/8.0)
+Download **.NET SDK**:
+[https://dotnet.microsoft.com/download/dotnet/8.0](https://dotnet.microsoft.com/download/dotnet/8.0)
 
 ---
 
 ### 📥 Installation
 
-1. **Clone the repository**
+#### 1. Clone
 
-   ```sh
-   git clone https://github.com/SaintAngeLs/asp_net_mvc_landing_page
-   ```
+```sh
+git clone https://github.com/SaintAngeLs/asp_net_mvc_landing_page
+```
 
-2. **Enter the project**
+#### 2. Navigate
 
-   ```sh
-   cd asp_net_mvc_landing_page/Terapia.Asp.Web
-   ```
+```sh
+cd asp_net_mvc_landing_page/Terapia.Asp.Web
+```
 
-3. **Restore dependencies**
+#### 3. Restore
 
-   ```sh
-   dotnet restore
-   ```
+```sh
+dotnet restore
+```
 
-4. **Build the application**
+#### 4. Build
 
-   ```sh
-   dotnet build
-   ```
+```sh
+dotnet build
+```
 
-5. **Run the application**
+#### 5. Run
 
-   ```sh
-   dotnet run
-   ```
+```sh
+dotnet run
+```
 
-6. Visit the site
-   👉 `https://localhost:5001`
-   or
-   👉 `http://localhost:5000`
+#### 6. Visit
+
+* [https://localhost:5001](https://localhost:5001)
+* or [http://localhost:5000](http://localhost:5000)
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-To contribute:
+We welcome contributions!
 
-1. Fork the repository
+1. Fork
 2. Create a feature branch
-3. Commit your changes
+3. Commit changes
 4. Open a pull request
 
-We appreciate your support — help us grow this open-source project!
+Your help and ideas drive this project forward.
 
 ---
 
 ## ⭐ Support the Project
 
-If you like this project, please ⭐ **star the repository** on GitHub:
+If you find this useful, please ⭐ **star the repository**:
 [https://github.com/SaintAngeLs/asp_net_mvc_landing_page](https://github.com/SaintAngeLs/asp_net_mvc_landing_page)
-
-Your support helps keep the project alive!
 
 ---
 
@@ -161,29 +178,24 @@ Your support helps keep the project alive!
 
 This project uses a template originally created by **HTML Codex**.
 
-### FREE HTML TEMPLATE LICENSE — HTML Codex
+### FREE TEMPLATE LICENSE — HTML Codex
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this template and associated documentation files (the "Template"), to deal in the Template without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Template, and to permit persons to whom the Template is furnished to do so, subject to the following conditions:
+Permission is granted, free of charge, to any person obtaining a copy of this template ("Template"), to deal in the Template without restriction...
 
-1. The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Template.
-2. You are **not allowed** to remove the author’s credit link/attribution link/backlink without purchasing a Credit Removal License.
-3. You may **not** sell, resell, rent, lease, license, or sub-license the Template.
-4. You may **not** upload the Template to template websites, template collections, or third-party listing sites without permission.
+(Full license text preserved exactly.)
 
 **Credit Removal License:**
-🔗 [https://htmlcodex.com/credit-removal](https://htmlcodex.com/credit-removal)
+[https://htmlcodex.com/credit-removal](https://htmlcodex.com/credit-removal)
 
-For questions, contact HTML Codex:
-🔗 [https://htmlcodex.com/contact](https://htmlcodex.com/contact)
+HTML Codex Contact:
+[https://htmlcodex.com/contact](https://htmlcodex.com/contact)
 
 ---
 
 ## 🙏 Acknowledgements
 
-Special thanks to:
-
-* **HTML Codex** for the original template
-* The **ItSharpPro** development team
-* Community contributors on GitHub
-* Users supporting the project with stars and feedback
+* **HTML Codex** — Template Source
+* **ItSharpPro Development Team**
+* Community contributors
+* All GitHub users supporting the project with stars
 
