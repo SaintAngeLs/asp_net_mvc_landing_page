@@ -23,7 +23,6 @@ It includes:
 
 This project is based on a template from **HTML Codex**, professionally adapted and restructured for ASP.NET Core.
 
-![ASP.NET Landing Page](wwwroot/landing-page.png)
 ---
 
 ## 🌐 Repository & Project Links
@@ -42,7 +41,7 @@ This project is based on a template from **HTML Codex**, professionally adapted 
 
 ## 🎨 Preview
 
-![Landing Page Preview](wwwroot/landing-page.png)
+![Landing Page Preview](Terapia.Asp.Web/wwwroot/landing-page.png)
 
 ---
 
