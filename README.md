@@ -1,4 +1,4 @@
-# 🚀 ASP.NET Landing Page
+# 🚀 ASP.NET Core Landing Page
 
 **A Professional, Customizable Landing Page + Auth-Ready Application**
 
@@ -23,6 +23,7 @@ It includes:
 
 This project is based on a template from **HTML Codex**, professionally adapted and restructured for ASP.NET Core.
 
+![ASP.NET Landing Page](wwwroot/landing-page.png)
 ---
 
 ## 🌐 Repository & Project Links
@@ -198,4 +199,3 @@ HTML Codex Contact:
 * **ItSharpPro Development Team**
 * Community contributors
 * All GitHub users supporting the project with stars
-
