@@ -1,9 +1,17 @@
 ﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+# .NET / Visual Studio / dotnet build outputs
 ################################################################################
 
-/.vs
-*./bin
-*./obj
-obj
-bin
+# VS cache
+.vs/
+
+# Build artifacts in any project
+**/bin/
+**/obj/
+
+# Any net8.0 publish/output folder
+**/net8.0/
+
+# Optional: Rider / VS Code / etc.
+.idea/
+.vscode/
