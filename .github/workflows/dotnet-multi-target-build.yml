@@ -1,0 +1,41 @@
+name: .NET Multi-Version Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        dotnet-version:
+          - '8.0.x'
+          - '9.0.x'
+          - '10.0.x'
+
+    name: Build on .NET ${{ matrix.dotnet-version }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET SDK ${{ matrix.dotnet-version }}
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ matrix.dotnet-version }}
+
+      - name: Display .NET info
+        run: dotnet --info
+
+      - name: Restore dependencies
+        working-directory: ./Terapia.Asp.Web
+        run: dotnet restore
+
+      - name: Build
+        working-directory: ./Terapia.Asp.Web
+        run: dotnet build --configuration Release --no-restore

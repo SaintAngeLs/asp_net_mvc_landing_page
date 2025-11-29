@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Indotalent.Pages
+namespace Terapia.Pages
 {
-    public class ServicesModel : PageModel
+    public class BlogModel : PageModel
     {
         public void OnGet()
         {

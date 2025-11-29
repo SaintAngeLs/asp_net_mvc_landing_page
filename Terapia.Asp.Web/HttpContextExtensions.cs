@@ -1,4 +1,4 @@
-﻿namespace Indotalent
+﻿namespace Terapia
 {
     public static class HttpContextExtensions
     {
